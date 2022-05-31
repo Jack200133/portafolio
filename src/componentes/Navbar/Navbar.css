@@ -3,7 +3,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: transparent;
+
 }
 
 .container a {
