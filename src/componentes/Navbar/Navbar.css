@@ -12,13 +12,13 @@
     display: inline-block;
     padding: 15px 30px;
     border: 2px solid#0f0;
-    margin: 40px;
+    margin: 20px;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
     Letter-spacing: 2px;
     color: #fff;
-    -webkit-box-reflect: below 0px linear-gradient (transparent, ☐#0002);
+    -webkit-box-reflect: below 0px linear-gradient (transparent, #0002);
     transition: 0.5s;
 }
 

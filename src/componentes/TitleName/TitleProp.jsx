@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './TitleName.css'
 
-function TitleName() {
+function TitleName(title, text) {
     const [count, setCount] = useState(0)
 
     return (
         <div className="cosito">
 
             <article>
-                <h1>Juan Angel Carrera</h1>
-                <p>Computer Science Student / Front & Back End Developer / UX & UI designer</p>
+                <h2>{title}</h2>
+                <p>{text}</p>
             </article>
         </div>
     )
