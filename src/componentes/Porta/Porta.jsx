@@ -36,7 +36,7 @@ function Porta({ img, title, link, descrip, descrip2, git }) {
     return (
         <div>
 
-            <Button onClick={handleOpen} style={imgs}><div style={imgs}></div></Button>
+            <Button onClick={handleOpen}><div style={imgs}></div></Button>
             <Modal
                 open={open}
                 onClose={handleClose}

@@ -5,9 +5,11 @@ import ImageList from '@mui/material/ImageList';
 import mg1 from "../../assets/pico/crynchy.png"
 import mg2 from "../../assets/pico/stream.png"
 import mg3 from "../../assets/pico/dinner.png"
-import mg4 from "../../assets/pico/crynchy.png"
-import mg5 from "../../assets/pico/stream.png"
+import mg4 from "../../assets/pico/memoria.png"
+import mg5 from "../../assets/pico/maze.png"
 import mg6 from "../../assets/pico/pochita.png"
+import mg7 from "../../assets/pico/calc.png"
+import mg8 from "../../assets/pico/com.png"
 import "./Goku.css"
 const Gojan = [
     {
@@ -16,6 +18,13 @@ const Gojan = [
         descrip: "The idea of this project was to be able to copy a pixel perfect page that we liked and not only that, I also copied most of the animations and hovers.",
         descrip2: "The skills I developed in this project were the server side rendering with webpack, the use of eslint and nginx to upload it to my own server.",
         git: "https://github.com/Jack200133/Crunchyroll"
+    },
+    {
+        img: mg8, title: "Communic-aid",
+        link: "https://github.com/Jack200133/DinnersReady",
+        descrip: "The base of this project was the creation of a pure drawing in css so I decided to draw pochita from the famous manga series chainsaw man. ",
+        descrip2: "For this project I learned a lot about the basics of css and it helped me a lot to learn about Flex, to have a better notion of the size of the divs and in general how to give a good css. ",
+        git: "https://github.com/Jack200133/Pochita-CSS-Only"
     },
     {
         img: mg2, title: "Proyect Streaming",
@@ -43,15 +52,23 @@ const Gojan = [
         link: "https://streaming.juanangelcarrera.xyz/",
         descrip: "The basis of this project is the creation of a mini-game which is a maze in which it had to be transpiled by webpack and had to make a request to an api to get a random maze.      ",
         descrip2: "In this project I learned how to use Webpack to transpile react and also how to use emotion to have the css inside the react components and be able to animate the player.",
-        git: "https://github.com/Jack200133/Proyecto-1-Bases-de-Datos"
+        git: "https://github.com/Jack200133/Laberinto_HellTaker_React"
     },
     {
         img: mg6, title: "Pochita-CSS-Only",
         link: "https://github.com/Jack200133/DinnersReady",
         descrip: "The base of this project was the creation of a pure drawing in css so I decided to draw pochita from the famous manga series chainsaw man. ",
         descrip2: "For this project I learned a lot about the basics of css and it helped me a lot to learn about Flex, to have a better notion of the size of the divs and in general how to give a good css. ",
-        git: "hhttps://github.com/Jack200133/DinnersReady"
-    }
+        git: "https://github.com/Jack200133/Pochita-CSS-Only"
+    },
+    {
+        img: mg7, title: "Calculadora React",
+        link: "https://streaming.juanangelcarrera.xyz/",
+        descrip: "The basis of this project is the creation of a mini-game which is a maze in which it had to be transpiled by webpack and had to make a request to an api to get a random maze.      ",
+        descrip2: "In this project I learned how to use Webpack to transpile react and also how to use emotion to have the css inside the react components and be able to animate the player.",
+        git: "https://github.com/Jack200133/Laberinto_HellTaker_React"
+    },
+
 ]
 function Goku() {
     return (
