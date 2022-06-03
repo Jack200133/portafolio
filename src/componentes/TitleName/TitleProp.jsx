@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './TitleName.css'
 
-function TitleName(title, text) {
+function TitleName({ title, text }) {
     const [count, setCount] = useState(0)
 
     return (

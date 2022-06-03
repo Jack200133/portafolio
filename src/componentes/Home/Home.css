@@ -5,12 +5,19 @@ h2 {
     text-decoration: none;
     Letter-spacing: 2px;
     color: #fff;
-    margin-right: 200px;
+    display: flex
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icono2 {
     width: 50px;
     height: 50px;
+
 }
 
 .icono2:hover {
@@ -22,15 +29,16 @@ h2 {
 .megacont {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    height: 100vh;
+    justify-content: space-evenly;
 }
 
 .text-container {
-    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cairo {
@@ -38,13 +46,28 @@ h2 {
     width: 300px;
     height: 2px;
     background: #0f0;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 5px;
     box-shadow: 0px -8px 0 #0f0,
         0px 8px 0 #0f0;
     transition: 8s ease;
     transition-delay: 0.5s;
+}
+
+@media (max-width: 500px) {
+    .cairo {
+        display: none;
+    }
+
+    .cosito {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.cosito {
+    top: 50%;
+
+
 }
 
 .textito {
@@ -56,9 +79,64 @@ h2 {
 }
 
 .cositas {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .cairo {
+        width: 150px
+    }
+
+    .cosito {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cositas {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .cairo {
+        width: 250px
+    }
+
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cositas {
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .centrador {
+        width: 250px;
+    }
+}
+
+.centrador {
+
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-self: center;
-    flex-wrap: wrap;
-    width: 50px;
+    justify-content: center;
+
 }

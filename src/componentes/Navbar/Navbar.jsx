@@ -11,7 +11,7 @@ function Navbar() {
             <div className="container">
                 <a href="#"><span>Home</span></a>
                 <a href="#"><span>Portafolio</span></a>
-                <a href="#"><span>Get in contact</span></a>
+                <a href="#"><span>Contact Me</span></a>
             </div>
         </div>
     )

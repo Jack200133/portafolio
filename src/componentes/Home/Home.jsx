@@ -24,7 +24,7 @@ import { ReactComponent as Tailwind } from '../../assets/tec/tail.svg'
 import { ReactComponent as Vit } from '../../assets/tec/vitejs.svg'
 import { ReactComponent as Web } from '../../assets/tec/webpack.svg'
 import { ReactComponent as U } from '../../assets/tec/ubuntu-4.svg'
-
+import './Home.css'
 
 function Home() {
     const [value, setValue] = React.useState(0)
@@ -34,44 +34,51 @@ function Home() {
     return (
         <div className="megacont">
             <div className="text-container">
+                <div className="title-container">
 
-                <h2 className="textote">ME, myself and I</h2>
-                <div className="cairo" />
-                <p className="textito">I am a student at UVG in the city of Guatemala,
-                    I will graduate in 2025 and I found my passion in programming, video games and anime.</p>
-                <p className="textito">With the great variety of university projects
-                    I have had the opportunity to work in many areas of
-                    programming from the use of a raspberry pi in assembler
-                    language to the creation of web pages like this one.</p>
-                <p class="text-3xl font-bold underline">I am open to job opportunities from anywhere in the
-                    world as another of my interests is to be able to travel a lot.</p>
+                    <h2 className="textote">ME, myself & I</h2>
+                    <div className="cairo" />
+                </div>
+                <div>
+                    <p className="textito">I am a student at UVG in the city of Guatemala,
+                        I will graduate in 2025 and I found my passion in programming, video games and anime.</p>
+                    <p className="textito">With the great variety of university projects
+                        I have had the opportunity to work in many areas of
+                        programming from the use of a raspberry pi in assembler
+                        language to the creation of web pages like this one.</p>
+                    <p class="textito">I am open to job opportunities from anywhere in the
+                        world as another of my interests is to be able to travel a lot.</p>
+                </div>
             </div>
-            <div className="cositas">
-                <ReactR className="icono2" />
-                <Aws className="icono2" />
-                <Azure className="icono2" />
-                <Git className="icono2" />
-                <C4 className="icono2" />
-                <C className="icono2" />
-                <CSS className="icono2" />
-                <Html className="icono2" />
-                <Ngp className="icono2" />
-                <Node className="icono2" />
-                <Java className="icono2" />
-                <Kot className="icono2" />
-                <Js className="icono2" />
-                <Ngnx className="icono2" />
-                <Pm2 className="icono2" />
-                <U className="icono2" />
-                <Web className="icono2" />
-                <Vit className="icono2" />
-                <Tailwind className="icono2" />
-                <Socket className="icono2" />
-                <ReactN className="icono2" />
-                <Rasp className="icono2" />
-                <Py className="icono2" />
-                <Post className="icono2" />
+            <div className="centrador">
+                <div className="cositas">
+                    <ReactR className="icono2" />
+                    <Aws className="icono2" />
+                    <Azure className="icono2" />
+                    <Git className="icono2" />
+                    <C4 className="icono2" />
+                    <C className="icono2" />
+                    <CSS className="icono2" />
+                    <Html className="icono2" />
+                    <Ngp className="icono2" />
+                    <Node className="icono2" />
+                    <Java className="icono2" />
+                    <Kot className="icono2" />
+                    <Js className="icono2" />
+                    <Ngnx className="icono2" />
+                    <Pm2 className="icono2" />
+                    <U className="icono2" />
+                    <Web className="icono2" />
+                    <Vit className="icono2" />
+                    <Tailwind className="icono2" />
+                    <Socket className="icono2" />
+                    <ReactN className="icono2" />
+                    <Rasp className="icono2" />
+                    <Py className="icono2" />
+                    <Post className="icono2" />
+                </div>
             </div>
+
         </div>
 
     )

@@ -3,8 +3,10 @@ import logo from './logo.svg'
 import './App.css'
 import Navbar from './componentes/Navbar/Navbar'
 import TitleName from './componentes/TitleName/TitleName'
+import TitleProp from './componentes/TitleName/TitleProp'
 import Back from './componentes/Back/Back'
 import Home from './componentes/Home/Home'
+import Goku from './componentes/Porta/Goku'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,7 @@ function App() {
       <Back />
       <TitleName />
       <Home />
+      <Goku />
     </div>
   )
 }

@@ -6,6 +6,7 @@ article {
             hsl(200 100% 60%),
             hsl(100 100% 60%)) fixed;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
