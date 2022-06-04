@@ -1,0 +1,45 @@
+.box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20%;
+    margin-bottom: 100px;
+}
+
+.box:hover::before {
+    background: #0f0;
+    width: 160%;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    transition: 3s ease;
+    width: 75px;
+    height: 140%;
+    background: linear-gradient(#FF7C49, #00E6ff);
+    animation: anime 4s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: 20%;
+    background: black;
+}
+
+@keyframes anime {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}

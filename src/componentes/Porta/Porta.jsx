@@ -41,9 +41,9 @@ function Porta({ img, title, link, descrip, descrip2, git }) {
         <div>
 
             <Button onClick={handleOpen} className='butt-con'>
-                <div style={imgs} class="image" />
-                <div class="middle">
-                    <div class="text">View project</div>
+                <div style={imgs} className="image" />
+                <div className="middle">
+                    <div className="text">View project</div>
                 </div>
             </Button>
             <Modal

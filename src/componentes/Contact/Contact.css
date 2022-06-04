@@ -1,7 +1,7 @@
 .conta {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
@@ -12,5 +12,11 @@
     align-items: flex-end;
     width: 100%;
     justify-content: flex-end;
+    margin-left: -30px;
+}
 
+.lugares {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }

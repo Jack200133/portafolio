@@ -42,7 +42,7 @@ function Home() {
                         I have had the opportunity to work in many areas of
                         programming from the use of a raspberry pi in assembler
                         language to the creation of web pages like this one.</p>
-                    <p class="textito">I am open to job opportunities from anywhere in the
+                    <p className="textito">I am open to job opportunities from anywhere in the
                         world as another of my interests is to be able to travel a lot.</p>
                 </div>
             </div>
