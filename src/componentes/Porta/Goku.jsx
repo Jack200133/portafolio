@@ -22,10 +22,10 @@ const Gojan = [
     },
     {
         img: mg8, title: "Communic-aid",
-        link: "https://github.com/Jack200133/DinnersReady",
+        link: "https://www.communic-aid.com/",
         descrip: "The base of this project was the creation of a pure drawing in css so I decided to draw pochita from the famous manga series chainsaw man. ",
         descrip2: "For this project I learned a lot about the basics of css and it helped me a lot to learn about Flex, to have a better notion of the size of the divs and in general how to give a good css. ",
-        git: "https://github.com/Jack200133/Pochita-CSS-Only"
+        git: "https://github.com/Daniel14gonc/Proyecto_microsoftAI"
     },
     {
         img: mg2, title: "Proyect Streaming",
@@ -43,28 +43,28 @@ const Gojan = [
     },
     {
         img: mg4, title: "Anime Memoy",
-        link: "https://crunchyroll.juanangelcarrera.xyz/",
+        link: "https://memoria.juanangelcarrera.xyz/",
         descrip: "The idea was to learn the basic concepts of react as the states and the handling of these in addition to using nothing more than an html file.",
         descrip2: "In this project I learned why each thing is used, how the program could be modularized by making it by components and how the states behave from parents to children.",
         git: "https://github.com/Jack200133/Memoria_React"
     },
     {
         img: mg5, title: "Helltaker Maze",
-        link: "https://streaming.juanangelcarrera.xyz/",
+        link: "https://maze.juanangelcarrera.xyz/",
         descrip: "The basis of this project is the creation of a mini-game which is a maze in which it had to be transpiled by webpack and had to make a request to an api to get a random maze.      ",
         descrip2: "In this project I learned how to use Webpack to transpile react and also how to use emotion to have the css inside the react components and be able to animate the player.",
         git: "https://github.com/Jack200133/Laberinto_HellTaker_React"
     },
     {
         img: mg6, title: "Pochita-CSS-Only",
-        link: "https://github.com/Jack200133/DinnersReady",
+        link: "https://pochita.juanangelcarrera.xyz/",
         descrip: "The base of this project was the creation of a pure drawing in css so I decided to draw pochita from the famous manga series chainsaw man. ",
         descrip2: "For this project I learned a lot about the basics of css and it helped me a lot to learn about Flex, to have a better notion of the size of the divs and in general how to give a good css. ",
         git: "https://github.com/Jack200133/Pochita-CSS-Only"
     },
     {
         img: mg7, title: "Calculadora React",
-        link: "https://streaming.juanangelcarrera.xyz/",
+        link: "https://calculadora.juanangelcarrera.xyz/",
         descrip: "The basis of this project is the creation of a mini-game which is a maze in which it had to be transpiled by webpack and had to make a request to an api to get a random maze.      ",
         descrip2: "In this project I learned how to use Webpack to transpile react and also how to use emotion to have the css inside the react components and be able to animate the player.",
         git: "https://github.com/Jack200133/Laberinto_HellTaker_React"
