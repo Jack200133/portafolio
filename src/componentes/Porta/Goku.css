@@ -2,5 +2,128 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.zelda {
+    filter: hue-rotate(80deg);
+    color: #0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zelda:hover {
+    filter: hue-rotate(250deg);
+}
+
+.proyects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.c2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #FF7C49;
+    transition: 1s ease;
+    overflow: hidden;
+}
+
+.c2:hover {
+    background-color: #111;
+    border: 2px solid #FF7C49;
+}
+
+.c2:hover .zelda2 {
+    color: #00E6ff
+}
+
+@media (max-width: 700px) {
+    .c2 {
+        justify-content: flex-start;
+    }
+
+    .centrador2 {
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .centrador2 {
+        justify-content: space-evenly;
+    }
+}
+
+.centrador2 {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.zelda2 {
+    color: #111;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding-top: 10px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.butt-con:hover .image {
+    opacity: 0.3;
+}
+
+.butt-con:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #00E6ff;
+    color: black;
+    border-radius: 50%;
+    max-inline-size: 15ch;
+    font-size: 12px;
+    padding: 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }

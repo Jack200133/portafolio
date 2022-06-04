@@ -10,6 +10,7 @@ import mg5 from "../../assets/pico/maze.png"
 import mg6 from "../../assets/pico/pochita.png"
 import mg7 from "../../assets/pico/calc.png"
 import mg8 from "../../assets/pico/com.png"
+import TitleK from '../TitleK/TitleK'
 import "./Goku.css"
 const Gojan = [
     {
@@ -72,8 +73,11 @@ const Gojan = [
 ]
 function Goku() {
     return (
-        <div className="grider">
-            {Gojan.map((items, i) => { return (<Porta key={i} {...items} />) })}
+        <div className="proyects" id="Portafolio">
+            <TitleK title="My Proyects" tipo="b" />
+            <div className="grider">
+                {Gojan.map((items, i) => { return (<Porta key={i} {...items} />) })}
+            </div>
         </div>
     )
 }

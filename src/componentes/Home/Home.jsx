@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Things from '../Things/Things'
+import TitleK from '../TitleK/TitleK'
 import { ReactComponent as Aws } from '../../assets/tec/aws-2.svg'
 import { ReactComponent as Azure } from '../../assets/tec/azure-2.svg'
 import { ReactComponent as C4 } from '../../assets/tec/c--4.svg'
@@ -33,12 +33,8 @@ function Home() {
     }, [])
     return (
         <div className="megacont">
-            <div className="text-container">
-                <div className="title-container">
-
-                    <h2 className="textote">ME, myself & I</h2>
-                    <div className="cairo" />
-                </div>
+            <div className="text-container" id="Home">
+                <TitleK title="ME, myself & I" tipo="g" />
                 <div>
                     <p className="textito">I am a student at UVG in the city of Guatemala,
                         I will graduate in 2025 and I found my passion in programming, video games and anime.</p>

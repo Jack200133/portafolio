@@ -7,6 +7,7 @@ import TitleProp from './componentes/TitleName/TitleProp'
 import Back from './componentes/Back/Back'
 import Home from './componentes/Home/Home'
 import Goku from './componentes/Porta/Goku'
+import Contact from './componentes/Contact/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <TitleName />
       <Home />
       <Goku />
+      <Contact />
     </div>
   )
 }

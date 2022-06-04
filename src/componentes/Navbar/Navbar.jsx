@@ -9,9 +9,9 @@ function Navbar() {
         <div className="posicion">
 
             <div className="container">
-                <a href="#"><span>Home</span></a>
-                <a href="#"><span>Portafolio</span></a>
-                <a href="#"><span>Contact Me</span></a>
+                <a href="#Home"><span>Home</span></a>
+                <a href="#Portafolio"><span>Portafolio</span></a>
+                <a href="#Contact"><span>Contact Me</span></a>
             </div>
         </div>
     )
