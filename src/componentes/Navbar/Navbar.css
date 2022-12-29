@@ -17,7 +17,7 @@
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
-    Letter-spacing: 2px;
+    letter-spacing: 2px;
     color: #fff;
     -webkit-box-reflect: below 0px linear-gradient (transparent, #0002);
     transition: 0.5s;
@@ -54,7 +54,7 @@
 .container a::before {
     content: '';
     position: absolute;
-    Left: -20px;
+    left: -20px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
@@ -70,7 +70,7 @@
 .container a:hover::before {
     width: 50%;
     height: 100%;
-    Left: -2px;
+    left: -2px;
     box-shadow: 5px 0 0#0f0,
         5px 0 0#0f0;
     transition-delay: 0s, 0.5s, 1s, 1s;
