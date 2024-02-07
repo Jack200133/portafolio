@@ -24,7 +24,7 @@ const Gojan = [
         img: mg8, title: "Communic-aid",
         link: "https://comunic-aid.juanangelcarrerasoto.xyz/",
         descrip: "This proyect was made in the Azure AI Hackaton, the idea was to create a web app that could help people with hearing disabilities to communicate with other people.",
-        descrip2: "For this project I learned how to use the Azure AI services and how to use the Azure web services to deploy the app",
+        descrip2: "For this project I learned how to use the Azure AI services and how to use the Azure web services to deploy the app, THE PROJECT IS OUT OF SERVICE.",
         git: "https://github.com/Daniel14gonc/Proyecto_microsoftAI"
     },
     {
