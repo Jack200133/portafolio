@@ -23,8 +23,8 @@ const Gojan = [
     {
         img: mg8, title: "Communic-aid",
         link: "https://comunic-aid.juanangelcarrerasoto.xyz/",
-        descrip: "The base of this project was the creation of a pure drawing in css so I decided to draw pochita from the famous manga series chainsaw man. ",
-        descrip2: "For this project I learned a lot about the basics of css and it helped me a lot to learn about Flex, to have a better notion of the size of the divs and in general how to give a good css. ",
+        descrip: "This proyect was made in the Azure AI Hackaton, the idea was to create a web app that could help people with hearing disabilities to communicate with other people.",
+        descrip2: "For this project I learned how to use the Azure AI services and how to use the Azure web services to deploy the app",
         git: "https://github.com/Daniel14gonc/Proyecto_microsoftAI"
     },
     {
@@ -65,8 +65,8 @@ const Gojan = [
     {
         img: mg7, title: "Calculadora React",
         link: "https://calculadora.juanangelcarrerasoto.xyz/",
-        descrip: "The basis of this project is the creation of a mini-game which is a maze in which it had to be transpiled by webpack and had to make a request to an api to get a random maze.      ",
-        descrip2: "In this project I learned how to use Webpack to transpile react and also how to use emotion to have the css inside the react components and be able to animate the player.",
+        descrip: "The basis of this project is a simple calculator that I made to learn the basics of react and how to use the states and the props.",
+        descrip2: "In this project I learned how to do Unit Testing with Jest and how to use the states and props in react.",
         git: "https://github.com/Jack200133/Laberinto_HellTaker_React"
     },
 
